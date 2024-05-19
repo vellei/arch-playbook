@@ -1,0 +1,5 @@
+---
+- name: Install mupdf
+  community.general.pacman:
+    name: mupdf
+    state: present

@@ -1,0 +1,5 @@
+---
+- name: Install skim
+  community.general.pacman:
+    name: skim
+    state: present

@@ -1,0 +1,10 @@
+---
+- name: Install pipewire
+  community.general.pacman:
+    name: pipewire
+    state: present
+
+- name: Install wireplumber
+  community.general.pacman:
+    name: wireplumber
+    state: present

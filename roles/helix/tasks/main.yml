@@ -1,0 +1,5 @@
+---
+- name: Install helix
+  community.general.pacman:
+    name: helix
+    state: present

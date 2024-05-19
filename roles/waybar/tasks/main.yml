@@ -1,0 +1,5 @@
+---
+- name: Install waybar
+  community.general.pacman:
+    name: waybar
+    state: present

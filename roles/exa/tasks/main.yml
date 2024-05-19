@@ -1,0 +1,5 @@
+---
+- name: Install exa
+  community.general.pacman:
+    name: exa
+    state: present

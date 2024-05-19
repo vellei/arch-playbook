@@ -1,0 +1,5 @@
+---
+- name: Install swww
+  community.general.pacman:
+    name: swww
+    state: present

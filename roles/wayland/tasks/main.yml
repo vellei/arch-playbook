@@ -1,0 +1,5 @@
+---
+- name: Install wayland
+  community.general.pacman:
+    name: wayland
+    state: present

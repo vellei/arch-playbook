@@ -1,0 +1,5 @@
+---
+- name: Install ranger
+  community.general.pacman:
+    name: ranger
+    state: present

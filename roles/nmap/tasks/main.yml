@@ -1,0 +1,5 @@
+---
+- name: Install nmap
+  community.general.pacman:
+    name: nmap
+    state: present

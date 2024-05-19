@@ -1,0 +1,5 @@
+---
+- name: Install hyperfine
+  community.general.pacman:
+    name: hyperfine
+    state: present

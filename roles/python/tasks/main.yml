@@ -1,0 +1,5 @@
+---
+- name: Install python3
+  community.general.pacman:
+    name: python3
+    state: present

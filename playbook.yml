@@ -1,0 +1,39 @@
+- host: localhost
+  become: yes
+  roles:
+    - { role: alacritty }
+    - { role: arp-scan }
+    - { role: bat }
+    - { role: curl }
+    - { role: delta }
+    - { role: docker }
+    - { role: exa }
+    - { role: fd }
+    - { role: feh }
+    - { role: firefox }
+    - { role: fish }
+    - { role: git }
+    - { role: grub }
+    - { role: helix }
+    - { role: hyperfine }
+    - { role: hyprland }
+    - { role: jq }
+    - { role: mako }
+    - { role: mupdf }
+    - { role: nmap }
+    - { role: pipewire }
+    - { role: playerctl }
+    - { role: python }
+    - { role: ranger }
+    - { role: ripgrep }
+    - { role: rsync }
+    - { role: skim }
+    - { role: ssh }
+    - { role: starship }
+    - { role: syncthing }
+    - { role: yt-dlp }
+    - { role: zellij }
+   
+   
+
+    

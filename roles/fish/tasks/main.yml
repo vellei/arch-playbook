@@ -1,0 +1,5 @@
+---
+- name: Install fish
+  community.general.pacman:
+    name: fish
+    state: present

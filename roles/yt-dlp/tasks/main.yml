@@ -1,0 +1,5 @@
+---
+- name: Install yt-dlp
+  community.general.pacman:
+    name: yt-dlp
+    state: present

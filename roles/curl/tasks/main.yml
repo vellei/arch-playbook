@@ -1,0 +1,5 @@
+---
+- name: Install curl
+  community.general.pacman:
+    name: curl
+    state: present

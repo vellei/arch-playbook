@@ -1,0 +1,5 @@
+---
+- name: Install arp-scan
+  community.general.pacman:
+    name: arp-scan
+    state: present

@@ -1,0 +1,10 @@
+---
+- name: Install grub
+  community.general.pacman:
+    name: grub
+    state: present
+
+- name: Install efibootmgr
+  community.general.pacman:
+    name: efibootmgr
+    state: present

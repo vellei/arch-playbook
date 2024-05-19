@@ -1,0 +1,5 @@
+---
+- name: Install feh
+  community.general.pacman:
+    name: feh
+    state: present

@@ -1,0 +1,5 @@
+---
+- name: Install mako
+  community.general.pacman:
+    name: mako
+    state: present
