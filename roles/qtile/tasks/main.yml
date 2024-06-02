@@ -1,0 +1,5 @@
+---
+- name: Install qtile
+  community.general.pacman:
+    name: qtile
+    state: present

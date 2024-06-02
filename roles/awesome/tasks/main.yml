@@ -1,0 +1,4 @@
+---
+- name: Install awesome
+  ansible.builtin.command:
+    cmd: yay -S --noconfirm --noprogressbar awesome-git

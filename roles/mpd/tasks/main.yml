@@ -1,0 +1,5 @@
+---
+- name: Install mpd
+  community.general.pacman:
+    name: mpd
+    state: present

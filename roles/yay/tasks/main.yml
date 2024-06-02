@@ -1,0 +1,21 @@
+---
+- name: Install yay dependencies
+  community.general.pacman:
+    name: base-devel
+    state: present
+
+- name: Clone yay
+  ansible.builtin.git:
+    repo: https://aur.archlinux.org/yay.git
+    dest: /tmp/yay
+
+- name: Install yay
+  ansible.builtin.command:
+    chdir: /tmp/yay
+    cmd: makepkg -si
+
+- name: Remove /tmp/yay
+  ansible.builtin.file:
+    path: /tmp/yay
+    state: absent
+

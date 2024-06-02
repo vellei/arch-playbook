@@ -1,0 +1,4 @@
+---
+- name: Install pyradio
+  ansible.builtin.command:
+    cmd: yay -S --noconfirm --noprogressbar pyradio

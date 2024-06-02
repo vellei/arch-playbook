@@ -1,0 +1,4 @@
+---
+- name: Install termv
+  ansible.builtin.command:
+    cmd: yay -S --noconfirm --noprogressbar termv

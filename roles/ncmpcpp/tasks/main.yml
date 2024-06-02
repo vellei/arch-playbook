@@ -1,0 +1,5 @@
+---
+- name: Install ncmpcpp
+  community.general.pacman:
+    name: ncmpcpp
+    state: present

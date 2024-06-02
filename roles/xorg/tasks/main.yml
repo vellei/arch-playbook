@@ -1,0 +1,10 @@
+---
+- name: Install xorg
+  community.general.pacman:
+    name: xorg
+    state: present
+
+- name: Install xorg-xinit
+  community.general.pacman:
+    name: xorg-xinit
+    state: present
