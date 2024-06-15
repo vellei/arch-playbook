@@ -1,0 +1,20 @@
+---
+- name: Install mesa
+  community.general.pacman:
+    name: mesa
+    state: present
+
+- name: Install libva-mesa-driver
+  community.general.pacman:
+    name: libva-mesa-driver
+    state: present
+
+- name: Install mesa-vdpau
+  community.general.pacman:
+    name: mesa-vdpau
+    state: present
+
+- name: Install xf86-video-vesa
+  community.general.pacman:
+    name: xf86-video-vesa
+    state: present

@@ -1,0 +1,5 @@
+---
+- name: Install nvidia
+  community.general.pacman:
+    name: nvidia
+    state: present

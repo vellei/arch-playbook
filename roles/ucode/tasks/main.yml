@@ -1,0 +1,5 @@
+---
+- name: Install intel-ucode
+  community.general.pacman:
+    name: intel-ucode
+    state: present
